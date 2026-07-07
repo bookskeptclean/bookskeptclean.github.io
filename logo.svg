@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      .navy { fill: #1B2A41; }
+      .green { fill: #2E7D5B; }
+      .offwhite { fill: #FAF9F6; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="512" height="512" rx="88" class="navy" />
+
+  <!-- spreadsheet grid card -->
+  <rect x="96" y="96" width="320" height="320" rx="20" class="offwhite" />
+
+  <!-- grid lines (spreadsheet motif) -->
+  <g stroke="#1B2A41" stroke-width="8" opacity="0.55">
+    <!-- vertical lines -->
+    <line x1="202.6" y1="112" x2="202.6" y2="400" />
+    <line x1="309.3" y1="112" x2="309.3" y2="400" />
+    <!-- horizontal lines -->
+    <line x1="112" y1="202.6" x2="400" y2="202.6" />
+    <line x1="112" y1="309.3" x2="400" y2="309.3" />
+  </g>
+
+  <!-- outer card border for crispness -->
+  <rect x="96" y="96" width="320" height="320" rx="20" fill="none" stroke="#1B2A41" stroke-width="8" opacity="0.55" />
+
+  <!-- bold checkmark, green accent, over the grid -->
+  <path d="M 150 275 L 230 355 L 380 175"
+        fill="none"
+        stroke="#2E7D5B"
+        stroke-width="46"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
